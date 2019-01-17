@@ -23,4 +23,3 @@ PS1='[\u@\h \W]\$ '
 export PATH="$PATH:~/bin"
 
 neofetch
-alias config='/usr/bin/git --git-dir=/home/christian/.cfg/ --work-tree=/home/christian'

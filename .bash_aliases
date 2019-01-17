@@ -15,3 +15,4 @@
 alias ll='ls -al'
 alias update='sudo pacman -Syu' #update system
 alias cls='clear'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
