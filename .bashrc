@@ -17,7 +17,7 @@ if [ -f ~/.bash_aliases ]; then
 fi
 
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
-
+GIT_EDITOR=vim; export GIT_EDITOR
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 export PATH="$PATH:~/bin"
