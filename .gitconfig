@@ -1,3 +1,5 @@
 [user]
 	email = ch.grimm@gmx.net
 	name = Christian Grimm
+[color]
+	ui = true
