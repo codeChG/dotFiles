@@ -10,7 +10,7 @@
 #   ___________________________________
 
 # If not running interactively, don't do anything
-[[ $- != *i* ]] && return
+#[[ $- != *i* ]] && return
 
 if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
