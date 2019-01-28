@@ -34,3 +34,8 @@
 ! white
 *.color7:       #9ea7a6
 *.color15:      #b5d8f6
+
+
+
+XTerm*faceName: FixedsysTTF:style=Monospaced
+XTerm*faceSize: 11
