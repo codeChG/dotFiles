@@ -39,3 +39,6 @@
 
 XTerm*faceName: FixedsysTTF:style=Monospaced
 XTerm*faceSize: 11
+XTerm*internalBorder: 10
+
+

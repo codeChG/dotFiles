@@ -181,5 +181,17 @@ exec --no-startup-id sh ~/.fehbg
 # finds out, if available)
 
 bar {
-        status_command i3status
+        status_command i3status -c ~/.config/i3/.i3status.conf
+
+        colors {
+                background      #1D84D7
+                statusline      #FFFFFF
+                separator       #00A5FF
+                #                  border  backgrd text
+                focused_workspace  #FFFFFF #114F81 #FFFFFF
+                active_workspace   #FFFFFF #999999 #FFFFFF
+                inactive_workspace #FFFFFF #1D84D7 #FFFFFF
+                urgent_workspace   #2f343a #900000 #FFFFFF
+                }
+
 }
