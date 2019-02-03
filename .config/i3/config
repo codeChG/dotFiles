@@ -164,6 +164,12 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
+
+# sound volume
+bindsym XF86AudioMute exec amixer -q set Master toggle
+bindsym XF86AudioLowerVolume exec amixer -q set Master 10%- unmute
+bindsym XF86AudioRaiseVolume exec amixer -q set Master 10%+ unmute
+
 for_window [class="^.*"] border pixel 2
 
 gaps inner 8
