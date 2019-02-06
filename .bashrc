@@ -9,6 +9,7 @@
 #
 #   ___________________________________
 
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -20,7 +21,7 @@ VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
 GIT_EDITOR=vim; export GIT_EDITOR
 alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
-export PATH="$PATH:~/bin"
+
 
 #neofetch
 [ -f /usr/bin/ufetch ] && ufetch
