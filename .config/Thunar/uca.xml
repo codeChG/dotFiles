@@ -1,0 +1,23 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Terminal hier öffnen</name>
+	<unique-id>1549961200920177-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Beispiel für eine eigene Aktion</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>&lt;cg&gt; entpacke 7z</name>
+	<unique-id>1550322868233107-2</unique-id>
+	<command>7zr x %F -y -o*</command>
+	<description></description>
+	<patterns>*.7z</patterns>
+	<startup-notify/>
+	<other-files/>
+</action>
+</actions>
