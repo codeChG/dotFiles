@@ -207,6 +207,7 @@ gaps outer 8
 bindsym $mod+r mode "resize"
 
 assign [class="Firefox"] $ws3
+assign [class="Chromium"] $ws3
 assign [class="code"] $ws9
 
 exec --no-startup-id sh ~/.fehbg
