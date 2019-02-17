@@ -20,4 +20,14 @@
 	<startup-notify/>
 	<other-files/>
 </action>
+<action>
+	<icon></icon>
+	<name>&lt;cg&gt; tar.gz entpacken</name>
+	<unique-id>1550392044615276-1</unique-id>
+	<command>tar xfvz %F </command>
+	<description></description>
+	<patterns>*.tar.gz</patterns>
+	<startup-notify/>
+	<other-files/>
+</action>
 </actions>
