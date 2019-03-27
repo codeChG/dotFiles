@@ -101,7 +101,7 @@ function fish_prompt
     switch $fish_key_bindings
     case fish_vi_key_bindings
         echo -n '    ╰─>'
-    case fish_default_key_bindings
+    case "*"
         echo -n '╰─>'
     end
     # ====================================
