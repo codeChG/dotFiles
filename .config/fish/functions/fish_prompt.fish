@@ -97,7 +97,15 @@ function fish_prompt
     end
     set_color normal
     set_color $retc
-    echo -n '╰─>'
+    # CG HACK=============================
+    switch $fish_key_bindings
+    case fish_vi_key_bindings
+        echo -n '    ╰─>'
+    case fish_default_key_bindings
+        echo -n '╰─>'
+    end
+    # ====================================
+    
     set_color -o red
     echo -n '$ '
     set_color normal
