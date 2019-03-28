@@ -11,6 +11,7 @@
 "                            
 "                            
 colorscheme solarized
+set background=dark
 set number relativenumber
 "set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
 set listchars=eol:¬,tab:\ \ 
